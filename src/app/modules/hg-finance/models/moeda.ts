@@ -1,6 +1,5 @@
 export interface Moeda{
-    name: string;
-    buy: number;
-    sell: number;
-    variation: number;
+    dolar: number,
+    euro: number,
+    peso: number
 }

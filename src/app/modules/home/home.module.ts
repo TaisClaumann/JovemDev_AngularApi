@@ -4,6 +4,7 @@ import { AgrupadorComponent } from './pages/agrupador/agrupador.component';
 import { FormComponent } from './components/form/form.component';
 import { TabelaComponent } from './components/tabela/tabela.component';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -13,12 +14,11 @@ import { FormsModule } from '@angular/forms';
     TabelaComponent
   ],
   exports: [
-    AgrupadorComponent,
-    FormComponent
+    AgrupadorComponent
   ],
   imports: [
     CommonModule,
-    FormsModule,
+    FormsModule
   ]
 })
 export class HomeModule { }

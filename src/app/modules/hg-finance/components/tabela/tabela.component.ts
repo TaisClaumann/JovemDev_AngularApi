@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Moeda } from '../../models/moeda';
 
 @Component({
   selector: 'app-tabela',
@@ -7,9 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class TabelaComponent {
 
-  public dolar: string = "teste";
-  public euro: string = "teste";
-  public peso: string = "teste";
-
-
+  @Input() moedas!: Moeda;
 }

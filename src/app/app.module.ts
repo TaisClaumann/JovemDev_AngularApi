@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http'
 import { HgFinanceModule } from './modules/hg-finance/hg-finance.module';
+import { HomeModule } from './modules/home/home.module';
+import { MenuComponent } from './modules/teste_menu/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    HgFinanceModule
+    HgFinanceModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

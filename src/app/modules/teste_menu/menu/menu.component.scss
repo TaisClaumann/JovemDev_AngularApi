@@ -1,0 +1,22 @@
+.menu-superior {
+    background-color: #8a4e9c;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #ae8cbb;
+}
